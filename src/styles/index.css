@@ -10,3 +10,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counterBody{
+    text-align: center;
+    background: black;
+    margin-top: 60px;
+}
+
+.counter{
+    display: inline-flex;
+    font-size: 50px;
+    /* line-height: 50px; */
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.digit{
+    margin: 10px;
+    background-color: #101010;
+    padding: 15px;
+    border-radius: 10px;
+    border-right: 1px solid #595757;
+    border-left: 1px solid #595757;
+}
